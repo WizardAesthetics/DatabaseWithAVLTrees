@@ -1,0 +1,386 @@
+1: Create a random-access file
+2: Display Contents
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a new record
+8: Delete a record
+9: Exit
+Enter a number [1-9]: 1
+
+Enter input [text file] name: database.txt
+Enter output [random access file] name: test
+File deleted!
+File has been created!
+
+1: Create a random-access file
+2: Display Contents
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a new record
+8: Delete a record
+9: Exit
+Enter a number [1-9]: 2
+
+Enter random access file name: test
+Return to main Menu [M]: 
+Print the next 5 records [N]: 
+Print all records [A]: 
+a
+
+
+First               Last                IDNum	GPA	
+--------------------------------------------------------
+Blake               Johnson             1112	3.48
+
+Kyle                Johnson             1110	3.26
+
+Reece               Fry                 1111	3.4
+
+Natsu               Dragneel            1113	2.65
+
+Izuku               Midoriya            1114	3.7
+
+Rin                 Okumura             1115	3.14
+
+Soma                Yukihira            1116	3.9
+
+Ash                 Ketchum             1117	2.4
+
+Rock                Lee                 1118	3.58
+
+All                 Might               1119	4.0
+
+Return to main Menu [M]: 
+Print the next 5 records [N]: 
+Print all records [A]: 
+m
+
+1: Create a random-access file
+2: Display Contents
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a new record
+8: Delete a record
+9: Exit
+Enter a number [1-9]: 3
+
+Enter random access file name: test
+Index Created!
+
+1: Create a random-access file
+2: Display Contents
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a new record
+8: Delete a record
+9: Exit
+Enter a number [1-9]: 4
+
+Return to main Menu [M]: 
+Start at an index [N]: 
+print all Index's [A]: 
+a
+
+(1113,3) 
+(1111,2) (1117,7) 
+(1110,1) (1112,0) (1115,5) (1119,9) 
+(1114,4) (1116,6) (1118,8) 
+Return to main Menu [M]: 
+Start at an index [N]: 
+print all Index's [A]: 
+n
+
+Enter the KEY to start from: 1117
+(1117,7) 
+(1115,5) (1119,9) 
+(1114,4) (1116,6) (1118,8) 
+Return to main Menu [M]: 
+Start at an index [N]: 
+print all Index's [A]: 
+m
+
+1: Create a random-access file
+2: Display Contents
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a new record
+8: Delete a record
+9: Exit
+Enter a number [1-9]: 5
+
+Enter the KEY you want to find: 
+1117
+First               Last                IDNum	GPA	
+--------------------------------------------------------
+Ash                 Ketchum             1117	2.4
+
+1: Create a random-access file
+2: Display Contents
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a new record
+8: Delete a record
+9: Exit
+Enter a number [1-9]: 6
+
+Enter the KEY you want to find: 1117
+What would you like to modify [F,L,GPA]: f
+Enter new First name: Hello
+Would you like to Modify another file[y/n]: 
+n
+
+1: Create a random-access file
+2: Display Contents
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a new record
+8: Delete a record
+9: Exit
+Enter a number [1-9]: 2
+
+Enter random access file name: test
+Return to main Menu [M]: 
+Print the next 5 records [N]: 
+Print all records [A]: 
+a
+
+
+First               Last                IDNum	GPA	
+--------------------------------------------------------
+Blake               Johnson             1112	3.48
+
+Kyle                Johnson             1110	3.26
+
+Reece               Fry                 1111	3.4
+
+Natsu               Dragneel            1113	2.65
+
+Izuku               Midoriya            1114	3.7
+
+Rin                 Okumura             1115	3.14
+
+Soma                Yukihira            1116	3.9
+
+Hello               Ketchum             1117	2.4
+
+Rock                Lee                 1118	3.58
+
+All                 Might               1119	4.0
+
+Return to main Menu [M]: 
+Print the next 5 records [N]: 
+Print all records [A]: 
+m
+
+1: Create a random-access file
+2: Display Contents
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a new record
+8: Delete a record
+9: Exit
+Enter a number [1-9]: 7
+
+Enter student info: first name, last name, Id, and GPA
+Might Guy 2220 2.0
+File was added!
+
+1: Create a random-access file
+2: Display Contents
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a new record
+8: Delete a record
+9: Exit
+Enter a number [1-9]: 2
+
+Enter random access file name: test
+Return to main Menu [M]: 
+Print the next 5 records [N]: 
+Print all records [A]: 
+a
+
+
+First               Last                IDNum	GPA	
+--------------------------------------------------------
+Blake               Johnson             1112	3.48
+
+Kyle                Johnson             1110	3.26
+
+Reece               Fry                 1111	3.4
+
+Natsu               Dragneel            1113	2.65
+
+Izuku               Midoriya            1114	3.7
+
+Rin                 Okumura             1115	3.14
+
+Soma                Yukihira            1116	3.9
+
+Hello               Ketchum             1117	2.4
+
+Rock                Lee                 1118	3.58
+
+All                 Might               1119	4.0
+
+Might               Guy                 2220	2.0
+
+Return to main Menu [M]: 
+Print the next 5 records [N]: 
+Print all records [A]: 
+m
+
+1: Create a random-access file
+2: Display Contents
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a new record
+8: Delete a record
+9: Exit
+Enter a number [1-9]: 3
+
+Enter random access file name: test
+Index Created!
+
+1: Create a random-access file
+2: Display Contents
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a new record
+8: Delete a record
+9: Exit
+Enter a number [1-9]: 4
+
+Return to main Menu [M]: 
+Start at an index [N]: 
+print all Index's [A]: 
+a
+
+(1117,7) 
+(1113,3) (1119,9) 
+(1111,2) (1115,5) (1118,8) (2220,10) 
+(1110,1) (1112,0) (1114,4) (1116,6) 
+Return to main Menu [M]: 
+Start at an index [N]: 
+print all Index's [A]: 
+m
+
+1: Create a random-access file
+2: Display Contents
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a new record
+8: Delete a record
+9: Exit
+Enter a number [1-9]: 8
+
+Enter the KEY of the record you wish to delete: 
+2220
+
+Record number 10 deleted!
+
+1: Create a random-access file
+2: Display Contents
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a new record
+8: Delete a record
+9: Exit
+Enter a number [1-9]: 2
+
+Enter random access file name: test
+Return to main Menu [M]: 
+Print the next 5 records [N]: 
+Print all records [A]: 
+a
+
+
+First               Last                IDNum	GPA	
+--------------------------------------------------------
+Blake               Johnson             1112	3.48
+
+Kyle                Johnson             1110	3.26
+
+Reece               Fry                 1111	3.4
+
+Natsu               Dragneel            1113	2.65
+
+Izuku               Midoriya            1114	3.7
+
+Rin                 Okumura             1115	3.14
+
+Soma                Yukihira            1116	3.9
+
+Hello               Ketchum             1117	2.4
+
+Rock                Lee                 1118	3.58
+
+All                 Might               1119	4.0
+
+Return to main Menu [M]: 
+Print the next 5 records [N]: 
+Print all records [A]: 
+m
+
+1: Create a random-access file
+2: Display Contents
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a new record
+8: Delete a record
+9: Exit
+Enter a number [1-9]: 4
+
+Return to main Menu [M]: 
+Start at an index [N]: 
+print all Index's [A]: 
+a
+
+(1117,7) 
+(1113,3) (1119,9) 
+(1111,2) (1115,5) (1118,8) 
+(1110,1) (1112,0) (1114,4) (1116,6) 
+Return to main Menu [M]: 
+Start at an index [N]: 
+print all Index's [A]: 
+m
+
+1: Create a random-access file
+2: Display Contents
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a new record
+8: Delete a record
+9: Exit
+Enter a number [1-9]: 9
+
